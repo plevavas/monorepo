@@ -1632,9 +1632,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sladg/nextjs-lambda@git@github.com:scorenco/nextjs-lambda.git#d74634bb520152dcc62e14571865966ee6854c9e":
-  version: 3.8.5
-  resolution: "@sladg/nextjs-lambda@git@github.com:scorenco/nextjs-lambda.git#commit=d74634bb520152dcc62e14571865966ee6854c9e"
+"@sladg/nextjs-lambda@git@github.com:scorenco/nextjs-lambda.git#14a25c568fff9540484a2bcbd8a0723dfe9545fe":
+  version: 3.10.0
+  resolution: "@sladg/nextjs-lambda@git@github.com:scorenco/nextjs-lambda.git#commit=14a25c568fff9540484a2bcbd8a0723dfe9545fe"
   dependencies:
     "@aws-cdk/aws-apigatewayv2-alpha": ^2.41.0-alpha.0
     "@aws-cdk/aws-apigatewayv2-integrations-alpha": ^2.41.0-alpha.0
@@ -1647,13 +1647,13 @@ __metadata:
     aws-cdk-lib: ^2.44.0
     commander: ^9.4.0
     constructs: ^10
-    next: ^12.3.0
+    next: ^12.3.1
     replace-in-file: ^6.3.5
-    serverless-http: ^3.0.2
+    serverless-http: ^3.0.3
     simple-git: ^3.14.1
   bin:
     next-utils: ./dist/cli.js
-  checksum: 7f701e68f4efc0665ea36894e0f5eafa379b5b21156d752a8c11c58c17b9c3d7600a8bce6379017b375bc5aedb5a0d7d7958a3ad00038b86589a940978c11833
+  checksum: 5e175742ae4a8aae9b463d5a8d40a9196926fdd5c6e1b5539b1695ac9ce6d0d5bb61952daac3abc108b9526a361be6515a82fda1597e3dc31abaa70901936ef3
   languageName: node
   linkType: hard
 
@@ -4112,7 +4112,7 @@ eslint-config-turbo@latest:
   version: 0.0.0-use.local
   resolution: "my-turborepo@workspace:."
   dependencies:
-    "@sladg/nextjs-lambda": "git@github.com:scorenco/nextjs-lambda.git#d74634bb520152dcc62e14571865966ee6854c9e"
+    "@sladg/nextjs-lambda": "git@github.com:scorenco/nextjs-lambda.git#14a25c568fff9540484a2bcbd8a0723dfe9545fe"
     eslint-config-custom: "*"
     prettier: latest
     turbo: latest
@@ -4152,7 +4152,7 @@ eslint-config-turbo@latest:
   languageName: node
   linkType: hard
 
-"next@npm:12.3.1, next@npm:^12.3.0":
+"next@npm:12.3.1, next@npm:^12.3.1":
   version: 12.3.1
   resolution: "next@npm:12.3.1"
   dependencies:
@@ -4789,7 +4789,7 @@ prettier@latest:
   languageName: node
   linkType: hard
 
-"serverless-http@npm:^3.0.2":
+"serverless-http@npm:^3.0.3":
   version: 3.0.3
   resolution: "serverless-http@npm:3.0.3"
   checksum: 8ad2f854c651ce39189f0a2b566071f4011f17e806cd9e0782654abf6ddfa3a80b64c2915628f1c87dbed68449740c29db3c054d9b56f2a306f236271e83720b

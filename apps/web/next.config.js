@@ -9,5 +9,5 @@ module.exports = withTM({
   },
   output: "standalone",
   // https://github.com/vercel/next.js/issues/11669
-  // compress: false,
+  compress: false,
 });

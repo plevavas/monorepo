@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "yarn deploy:pack && yarn deploy:deploy",
+    "deploy": "yarn build &&yarn deploy:pack && yarn deploy:deploy",
     "deploy:pack": "npm run-script env -- next-utils pack --nextFolder ./apps/web",
     "deploy:deploy": "npm run-script env -- next-utils deploy"
   },

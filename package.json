@@ -13,7 +13,7 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "@sladg/nextjs-lambda": "git@github.com:scorenco/nextjs-lambda.git#d74634bb520152dcc62e14571865966ee6854c9e",
+    "@sladg/nextjs-lambda": "git@github.com:scorenco/nextjs-lambda.git#14a25c568fff9540484a2bcbd8a0723dfe9545fe",
     "eslint-config-custom": "*",
     "prettier": "latest",
     "turbo": "latest"
